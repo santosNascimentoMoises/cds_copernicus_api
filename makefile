@@ -12,11 +12,11 @@ ACTIVATE = . $(VENV_NAME)/bin/activate
 setup:
 	@echo "==> Criando ambiente virtual: $(VENV_NAME)"
 	python3.12 -m venv $(VENV_NAME)
-	@echo "==> Ativando ambiente virtual e instalando pacotes principais"
-	$(ACTIVATE) && pip install --upgrade pip && pip install jupyter ipykernel
-	@echo "==> Registrando kernel no Jupyter"
-	$(ACTIVATE) && python -m ipykernel install --user --name=$(VENV_NAME) --display-name "Python ($(VENV_NAME))"
-	@echo "==> Ambiente $(VENV_NAME) pronto!"
+	# @echo "==> Ativando ambiente virtual e instalando pacotes principais"
+	# $(ACTIVATE) && pip install --upgrade pip && pip install jupyter ipykernel
+	# @echo "==> Registrando kernel no Jupyter"
+	# $(ACTIVATE) && python -m ipykernel install --user --name=$(VENV_NAME) --display-name "Python ($(VENV_NAME))"
+	# @echo "==> Ambiente $(VENV_NAME) pronto!"
 
 ## Instala dependências de requirements.txt
 install:
