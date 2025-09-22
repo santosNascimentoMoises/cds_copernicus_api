@@ -48,6 +48,7 @@ def main():
     client = cdsapi.Client()
     for var in VARIABLES:
         for year in YEARS:
+            print(f"downloading data {var} {year}")
             request = build_request(var, year)
             target = os.path.join(OUTPUT_PATH, f"{var}_{year}.nc")
             client.retrieve(DATASET, request, target)
