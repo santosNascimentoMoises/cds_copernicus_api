@@ -1,0 +1,26 @@
+makefile
+make setup
+make install
+make freeze
+make notebook
+make lab
+
+CFSR e o ERA5 para a região da plataforma norte 
+
+lon: : -56.5 a -30.0 E
+lat: -8 a 10 N
+
+A ideia é comparar LW e SW (long wave e short wave) do ERA5, CFSR e observado. Deves começar por escolher 2 ou 3 pontos no interior do dominio, sobre o oceano e plotares os anos a partir de 2006. Podes fazer até ao presente (ou proximo) usando dados mensais.
+
+Numa segunda fase, vais fazer a comparaçao para todo o dominio, por exemplo ERA5-obs e CFSR-obs, medias de todos os janeiros, fevereiros, etc.
+
+Qualquer duvida é so falar.
+
+Até mais e bom trabalho,
+
+
+ousado amor
+Vim para adorar-Te
+Só em Jesus
+És o Rei que vem
+Abra os Olhos do Meu Coração https://www.youtube.com/watch?v=6v9i3YVSHIY x1.1
