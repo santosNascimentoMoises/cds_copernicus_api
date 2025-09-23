@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep  1 20:36:15 2025
-
-@author: moises-ubuntu
-
-cdo ymonmean mursst.nc mursst_clm.nc
-"""
-
 import xarray as xr
 import matplotlib.pyplot as plt
 
