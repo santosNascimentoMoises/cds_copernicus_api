@@ -50,7 +50,7 @@ def main():
         for year in YEARS:
             print(f"downloading data {var} {year}")
             request = build_request(var, year)
-            target = os.path.join(OUTPUT_PATH, f"{var}_{year}.nc")
+            target = os.path.join(OUTPUT_PATH, f"{var}_{year}.zip")
             client.retrieve(DATASET, request, target)
 
 if __name__ == "__main__":
